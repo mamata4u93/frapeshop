@@ -27,7 +27,7 @@ function Routers() {
       <Routes>
 
         {/* Without token and Without Layout */}
-        <Route path="/" element={<Splash />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Splash />} />
 
         <Route element={<Layouts />}>

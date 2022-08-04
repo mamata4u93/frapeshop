@@ -32,7 +32,7 @@
         animation: "fade"
     });
 
-    /*------ Wow Active ----*/
+    // /*------ Wow Active ----*/
     new WOW().init();
 
     //sidebar sticky
