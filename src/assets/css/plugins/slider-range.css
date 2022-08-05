@@ -7,7 +7,8 @@
  * These styles are required for noUiSlider to function.
  * You don't need to change these rules to apply your design.
  */
-.noUi-target,.noUi-target * {
+.noUi-target,
+.noUi-target * {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -ms-touch-action: none;
@@ -29,7 +30,7 @@
   height: 100%;
   position: relative;
   z-index: 1;
-/* Fix 401 */
+  /* Fix 401 */
 }
 
 .noUi-origin {
@@ -46,14 +47,14 @@
 }
 
 .noUi-stacking .noUi-handle {
-/* This class is applied to the lower origin when
+  /* This class is applied to the lower origin when
    its values is > 50%. */
   z-index: 10;
 }
 
 .noUi-state-tap .noUi-origin {
-  -webkit-transition: left 0.3s,top .3s;
-  transition: left 0.3s,top .3s;
+  -webkit-transition: left 0.3s, top .3s;
+  transition: left 0.3s, top .3s;
 }
 
 .noUi-state-drag * {
@@ -63,9 +64,10 @@
 /* Painting and performance;
  * Browsers can paint handles in their own layer.
  */
-.noUi-base,.noUi-handle {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+.noUi-base,
+.noUi-handle {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 /* Slider size and handle placement;
@@ -122,7 +124,7 @@
 
 .noUi-handle:active {
   border: 8px solid #3BB77E;
-  border: 8px solid rgba(59,183,126,0.38);
+  border: 8px solid rgba(59, 183, 126, 0.38);
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   left: -14px;
@@ -131,10 +133,12 @@
 
 /* Disabled state;
  */
-[disabled].noUi-connect,[disabled] .noUi-connect {
+[disabled].noUi-connect,
+[disabled] .noUi-connect {
   background: #B8B8B8;
 }
 
-[disabled].noUi-origin,[disabled] .noUi-handle {
+[disabled].noUi-origin,
+[disabled] .noUi-handle {
   cursor: not-allowed;
 }
