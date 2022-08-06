@@ -75,10 +75,10 @@ function Header() {
 
                                         <div className="product-image-slider">
                                             <figure className="border-radius-10">
-                                                <img src={icon_compare} alt="product image"/>
+                                                <img src="assets/imgs/shop/product-16-1.jpg" alt="product image"/>
                                             </figure>
                                             <figure className="border-radius-10">
-                                                <img src={product16_1} />
+                                                <img src="assets/imgs/shop/product-16-2.jpg" />
                                             </figure>
                                             <figure className="border-radius-10">
                                                 <img src="assets/imgs/shop/product-16-3.jpg" alt="product image" />
