@@ -3,13 +3,37 @@ import { Outlet, NavLink, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Button, DatePicker, Switch, Layout } from 'antd';
 import { useTheme } from "../../theme/use-theme";
+
+import logo from "../../assets/imgs/theme/logo.svg";
+import flag1 from "../../assets/imgs/theme/flag-fr.png";
+import flag2 from "../../assets/imgs/theme/flag-dt.png";
+import flag3 from "../../assets/imgs/theme/flag-ru.png";
+import thumbnail2 from "../../assets/imgs/shop/thumbnail-3.jpg";
+import thumbnail1 from "../../assets/imgs/shop/thumbnail-2.jpg";
+import icon1 from "../../assets/imgs/theme/icons/icon1.svg";
+import icon2 from "../../assets/imgs/theme/icons/icon2.svg";
+import icon3 from "../../assets/imgs/theme/icons/icon3.svg";
+import icon4 from "../../assets/imgs/theme/icons/icon4.svg";
 import icon_compare from "../../assets/imgs/theme/icons/icon_compare.svg";
 import icon_heart2 from "../../assets/imgs/theme/icons/icon_heart2.svg";
 import icon_cart from "../../assets/imgs/theme/icons/icon_cart.svg";
 import icon_user from "../../assets/imgs/theme/icons/icon_user.svg";
 import icon_hot from "../../assets/imgs/theme/icons/icon_hot.svg";
 import icon_headphone from "../../assets/imgs/theme/icons/icon_headphone.svg";
-import product16_1 from "../../assets/imgs/shop/product16_1.jpg";
+import category1 from "../../assets/imgs/theme/icons/category-1.svg"
+import category2 from "../../assets/imgs/theme/icons/category-2.svg"
+import category3 from "../../assets/imgs/theme/icons/category-3.svg"
+import category4 from "../../assets/imgs/theme/icons/category-4.svg"
+import category5 from "../../assets/imgs/theme/icons/category-5.svg"
+import category6 from "../../assets/imgs/theme/icons/category-6.svg"
+import category7 from "../../assets/imgs/theme/icons/category-7.svg"
+import category8 from "../../assets/imgs/theme/icons/category-8.svg"
+import category9 from "../../assets/imgs/theme/icons/category-9.svg"
+import category10 from "../../assets/imgs/theme/icons/category-10.svg"
+import bannermenu from "../../assets/imgs/banner/banner-menu.png"
+import thumbnail3 from "../../assets/imgs/shop/thumbnail-5.jpg";
+import thumbnail4 from "../../assets/imgs/shop/thumbnail-4.jpg";
+
 
 function Header() {
     const { t, i18n } = useTranslation();
@@ -63,6 +87,7 @@ function Header() {
                 </div>
             </div>
 
+            
             <div className="modal fade custom-modal" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
@@ -99,7 +124,7 @@ function Header() {
 
                                         <div className="slider-nav-thumbnails">
                                             <div><img src="assets/imgs/shop/thumbnail-3.jpg" alt="product image" /></div>
-                                            <div><img src="assets/imgs/shop/thumbnail-4.jpg" alt="product image" /></div>
+                                            <div><img sr={thumbnail3} alt="product image" /></div>
                                             <div><img src="assets/imgs/shop/thumbnail-5.jpg" alt="product image" /></div>
                                             <div><img src="assets/imgs/shop/thumbnail-6.jpg" alt="product image" /></div>
                                             <div><img src="assets/imgs/shop/thumbnail-7.jpg" alt="product image" /></div>
@@ -154,6 +179,7 @@ function Header() {
                     </div>
                 </div>
             </div>
+            
             <header className="header-area header-style-1 header-height-2">
                 <div className="mobile-promotion">
                     <span>Grand opening, <strong>up to 15%</strong> off all items. Only <strong>3 days</strong> left</span>
@@ -190,13 +216,13 @@ function Header() {
                                             <a className="language-dropdown-active" href="index.html#">English <i className="fi-rs-angle-small-down"></i></a>
                                             <ul className="language-dropdown">
                                                 <li>
-                                                    <a href="index.html#"><img src="assets/imgs/theme/flag-fr.png" alt="" />Français</a>
+                                                    <a href="index.html#"><img src={flag1} alt="" />Français</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><img src="assets/imgs/theme/flag-dt.png" alt="" />Deutsch</a>
+                                                    <a href="index.html#"><img src={flag2} alt="" />Deutsch</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><img src="assets/imgs/theme/flag-ru.png" alt="" />Pусский</a>
+                                                    <a href="index.html#"><img src={flag3} alt="" />Pусский</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -204,13 +230,13 @@ function Header() {
                                             <a className="language-dropdown-active" href="index.html#">USD <i className="fi-rs-angle-small-down"></i></a>
                                             <ul className="language-dropdown">
                                                 <li>
-                                                    <a href="index.html#"><img src="assets/imgs/theme/flag-fr.png" alt="" />INR</a>
+                                                    <a href="index.html#"><img src={flag1} alt="" />INR</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><img src="assets/imgs/theme/flag-dt.png" alt="" />MBP</a>
+                                                    <a href="index.html#"><img src={flag2} alt="" />MBP</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#"><img src="assets/imgs/theme/flag-ru.png" alt="" />EU</a>
+                                                    <a href="index.html#"><img src={flag3} alt="" />EU</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -224,7 +250,7 @@ function Header() {
                     <div className="container">
                         <div className="header-wrap">
                             <div className="logo logo-width-1">
-                                <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                                <a href="index.html"><img src={logo} alt="logo" /></a>
                             </div>
                             <div className="header-right">
                                 <div className="search-style-2">
@@ -291,7 +317,7 @@ function Header() {
                                                 <ul>
                                                     <li>
                                                         <div className="shopping-cart-img">
-                                                            <a href="shop-product-right.html"><img alt="Nest" src="assets/imgs/shop/thumbnail-3.jpg" /></a>
+                                                            <a href="shop-product-right.html"><img alt="Nest" src={thumbnail2} /></a>
                                                         </div>
                                                         <div className="shopping-cart-title">
                                                             <h4><a href="shop-product-right.html">Daisy Casual Bag</a></h4>
@@ -303,7 +329,7 @@ function Header() {
                                                     </li>
                                                     <li>
                                                         <div className="shopping-cart-img">
-                                                            <a href="shop-product-right.html"><img alt="Nest" src="assets/imgs/shop/thumbnail-2.jpg" /></a>
+                                                            <a href="shop-product-right.html"><img alt="Nest" src={thumbnail1} /></a>
                                                         </div>
                                                         <div className="shopping-cart-title">
                                                             <h4><a href="shop-product-right.html">Corduroy Shirts</a></h4>
@@ -363,7 +389,7 @@ function Header() {
                     <div className="container">
                         <div className="header-wrap header-space-between position-relative">
                             <div className="logo logo-width-1 d-block d-lg-none">
-                                <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                                <a href="index.html"><img src={logo} alt="logo" /></a>
                             </div>
                             <div className="header-nav d-none d-lg-flex">
                                 <div className="main-categori-wrap d-none d-lg-block">
@@ -375,36 +401,36 @@ function Header() {
                                         <div className="d-flex categori-dropdown-inner">
                                             <ul>
                                                 <li>
-                                                    <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-1.svg" alt="" />Milks and Dairies</a>
+                                                    <a href="shop-grid-right.html"> <img src={category1} alt="" />Milks and Dairies</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-2.svg" alt="" />Clothing & beauty</a>
+                                                    <a href="shop-grid-right.html"> <img src={category2} alt="" />Clothing & beauty</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-3.svg" alt="" />Pet Foods & Toy</a>
+                                                    <a href="shop-grid-right.html"> <img src={category3} alt="" />Pet Foods & Toy</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-4.svg" alt="" />Baking material</a>
+                                                    <a href="shop-grid-right.html"> <img src={category4} alt="" />Baking material</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-5.svg" alt="" />Fresh Fruit</a>
+                                                    <a href="shop-grid-right.html"> <img src={category5} alt="" />Fresh Fruit</a>
                                                 </li>
                                             </ul>
                                             <ul className="end">
                                                 <li>
-                                                    <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-6.svg" alt="" />Wines & Drinks</a>
+                                                    <a href="shop-grid-right.html"> <img src={category6} alt="" />Wines & Drinks</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-7.svg" alt="" />Fresh Seafood</a>
+                                                    <a href="shop-grid-right.html"> <img src={category7} alt="" />Fresh Seafood</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-8.svg" alt="" />Fast food</a>
+                                                    <a href="shop-grid-right.html"> <img src={category8} alt="" />Fast food</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-9.svg" alt="" />Vegetables</a>
+                                                    <a href="shop-grid-right.html"> <img src={category9} alt="" />Vegetables</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-10.svg" alt="" />Bread and Juice</a>
+                                                    <a href="shop-grid-right.html"> <img src={category10} alt="" />Bread and Juice</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -412,18 +438,18 @@ function Header() {
                                             <div className="d-flex categori-dropdown-inner">
                                                 <ul>
                                                     <li>
-                                                        <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/icon-1.svg" alt="" />Milks and Dairies</a>
+                                                        <a href="shop-grid-right.html"> <img src={icon1} alt="" />Milks and Dairies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/icon-2.svg" alt="" />Clothing & beauty</a>
+                                                        <a href="shop-grid-right.html"> <img sr={icon2} alt="" />Clothing & beauty</a>
                                                     </li>
                                                 </ul>
                                                 <ul className="end">
                                                     <li>
-                                                        <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/icon-3.svg" alt="" />Wines & Drinks</a>
+                                                        <a href="shop-grid-right.html"> <img src={icon3} alt="" />Wines & Drinks</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/icon-4.svg" alt="" />Fresh Seafood</a>
+                                                        <a href="shop-grid-right.html"> <img src={icon4} alt="" />Fresh Seafood</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -533,7 +559,7 @@ function Header() {
                                                     </li>
                                                     <li className="sub-mega-menu sub-mega-menu-width-34">
                                                         <div className="menu-banner-wrap">
-                                                            <a href="shop-product-right.html"><img src="assets/imgs/banner/banner-menu.png" alt="Nest" /></a>
+                                                            <a href="shop-product-right.html"><img src={bannermenu} alt="Nest" /></a>
                                                             <div className="menu-banner-content">
                                                                 <h4>Hot deals</h4>
                                                                 <h3>
@@ -612,20 +638,20 @@ function Header() {
                                 <div className="header-action-2">
                                     <div className="header-action-icon-2">
                                         <a href="shop-wishlist.html">
-                                            <img alt="Nest" src="assets/imgs/theme/icons/icon-heart.svg" />
+                                            <img alt="Nest" src={icon_heart2} />
                                             <span className="pro-count white">4</span>
                                         </a>
                                     </div>
                                     <div className="header-action-icon-2">
                                         <a className="mini-cart-icon" href="index.html#">
-                                            <img alt="Nest" src="assets/imgs/theme/icons/icon-cart.svg" />
+                                            <img alt="Nest" src={icon_cart} />
                                             <span className="pro-count white">2</span>
                                         </a>
                                         <div className="cart-dropdown-wrap cart-dropdown-hm2">
                                             <ul>
                                                 <li>
                                                     <div className="shopping-cart-img">
-                                                        <a href="shop-product-right.html"><img alt="Nest" src="assets/imgs/shop/thumbnail-3.jpg" /></a>
+                                                        <a href="shop-product-right.html"><img alt="Nest" src={thumbnail3} /></a>
                                                     </div>
                                                     <div className="shopping-cart-title">
                                                         <h4><a href="shop-product-right.html">Plain Striola Shirts</a></h4>
@@ -637,7 +663,7 @@ function Header() {
                                                 </li>
                                                 <li>
                                                     <div className="shopping-cart-img">
-                                                        <a href="shop-product-right.html"><img alt="Nest" src="assets/imgs/shop/thumbnail-4.jpg" /></a>
+                                                        <a href="shop-product-right.html"><img alt="Nest" sr={thumbnail4} /></a>
                                                     </div>
                                                     <div className="shopping-cart-title">
                                                         <h4><a href="shop-product-right.html">Macbook Pro 2022</a></h4>

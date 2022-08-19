@@ -7,12 +7,12 @@ import { useTranslation } from "react-i18next";
 import { useTheme } from "../theme/use-theme";
 import logo from "../assets/imgs/theme/logo.svg";
 import cat from "../assets/imgs/shop/cat_13.png";
-import cat_11 from "../assets/imgs/shop/cat_11.png";
-import cat_12 from "../assets/imgs/shop/cat_12.png";
-import cat_9 from "../assets/imgs/shop/cat_9.png";
+import cat1 from "../assets/imgs/shop/cat_11.png";
+import cat2 from "../assets/imgs/shop/cat_12.png";
+import cat3 from "../assets/imgs/shop/cat_9.png";
 import cat_1 from "../assets/imgs/shop/cat_1.png";
 import cat_2 from "../assets/imgs/shop/cat_2.png";
-import cat_3 from "../assets/imgs/shop/cat_3.png";
+import cat6 from "../assets/imgs/shop/cat_3.png";
 import cat_4 from "../assets/imgs/shop/cat_4.png";
 import cat_5 from "../assets/imgs/shop/cat_5.png";
 import cat_15 from "../assets/imgs/shop/cat_15.png";
@@ -36,7 +36,6 @@ import product_7_1 from "../assets/imgs/shop/product_7_1.jpg";
 import product_7_2 from "../assets/imgs/shop/product_7_2.jpg";
 import product_8_1 from "../assets/imgs/shop/product_8_1.jpg";
 import product_8_2 from "../assets/imgs/shop/product_8_2.jpg";
-
 import product9 from "../assets/imgs/shop/product-9-1.jpg";
 import product10 from "../assets/imgs/shop/product-9-2.jpg";
 import product11 from "../assets/imgs/shop/product-10-1.jpg";
@@ -46,7 +45,25 @@ import product14 from "../assets/imgs/shop/product-12-2.jpg";
 import product15 from "../assets/imgs/shop/product-13-1.jpg";
 import product16 from "../assets/imgs/shop/product-13-2.jpg";
 import product17 from "../assets/imgs/shop/product-14-1.jpg";
-// import product18 from "../assets/imgs/shopproduct-14-2.jpg";
+import product18 from "../assets/imgs/shop/product-15-1.jpg";
+import product19 from "../assets/imgs/shop/product-15-2.jpg";
+import product20 from "../assets/imgs/shop/product16-1.jpg";
+import product21 from "../assets/imgs/shop/product-16-2.jpg";
+import thumbnail from "../assets/imgs/shop/thumbnail-1.jpg";
+import thumbnail1 from "../assets/imgs/shop/thumbnail-2.jpg";
+import thumbnail2 from "../assets/imgs/shop/thumbnail-3.jpg";
+import thumbnail3 from "../assets/imgs/shop/thumbnail-4.jpg";
+import thumbnail4 from "../assets/imgs/shop/thumbnail-5.jpg";
+import thumbnail5 from "../assets/imgs/shop/thumbnail-6.jpg";
+import thumbnail6 from "../assets/imgs/shop/thumbnail-7.jpg";
+import thumbnail7 from "../assets/imgs/shop/thumbnail-8.jpg";
+import thumbnail8 from "../assets/imgs/shop/thumbnail-9.jpg";
+import thumbnail9 from "../assets/imgs/shop/thumbnail-10.jpg";
+import thumbnail10 from "../assets/imgs/shop/thumbnail-11.jpg";
+import thumbnail11 from "../assets/imgs/shop/thumbnail-12.jpg";
+import thumbnail12 from "../assets/imgs/shop/product-11-1.jpg";
+import thumbnail13 from "../assets/imgs/shop/product-11-2.jpg";
+import product22 from "../assets/imgs/shop/product-14-2.jpg";
 
 
 function Home() {
@@ -298,6 +315,7 @@ function Home() {
                         </div>
                         <div className="carausel-10-columns-cover position-relative">
                             <div className="carausel-10-columns" id="carausel-10-columns">
+                               
                                 <div className="card-2 bg-9 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                                     <figure className="img-hover-scale overflow-hidden">
                                         <a href="shop-grid-right.html"><img src={cat} alt="" /></a>
@@ -307,28 +325,28 @@ function Home() {
                                 </div>
                                 <div className="card-2 bg-10 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
                                     <figure className="img-hover-scale overflow-hidden">
-                                        <a href="shop-grid-right.html"><img src={cat_12} alt="" /></a>
+                                        <a href="shop-grid-right.html"><img src={cat2} alt="" /></a>
                                     </figure>
                                     <h6><a href="shop-grid-right.html">Oganic Kiwi</a></h6>
                                     <span>28 items</span>
                                 </div>
                                 <div className="card-2 bg-11 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
                                     <figure className="img-hover-scale overflow-hidden">
-                                        <a href="shop-grid-right.html"><img src={cat_11} alt="" /></a>
+                                        <a href="shop-grid-right.html"><img src={cat1} alt="" /></a>
                                     </figure>
                                     <h6><a href="shop-grid-right.html">Peach</a></h6>
                                     <span>14 items</span>
                                 </div>
                                 <div className="card-2 bg-12 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
                                     <figure className="img-hover-scale overflow-hidden">
-                                        <a href="shop-grid-right.html"><img src={cat_9} alt="" /></a>
+                                        <a href="shop-grid-right.html"><img src={cat3} alt="" /></a>
                                     </figure>
                                     <h6><a href="shop-grid-right.html">Red Apple</a></h6>
                                     <span>54 items</span>
                                 </div>
                                 <div className="card-2 bg-13 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
                                     <figure className="img-hover-scale overflow-hidden">
-                                        <a href="shop-grid-right.html"><img src={cat_3} alt="" /></a>
+                                        <a href="shop-grid-right.html"><img src={cat6} alt="" /></a>
                                     </figure>
                                     <h6><a href="shop-grid-right.html">Snack</a></h6>
                                     <span>56 items</span>
@@ -1154,7 +1172,7 @@ function Home() {
                                                     <a href="shop-product-right.html">
                                                         <img className="default-img" src={product17}
                                                             alt="" />
-                                                        {/* <img className="hover-img" src={product18} alt="" /> */}
+                                                        <img className="hover-img" src={product18} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1201,9 +1219,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-15-1.jpg"
+                                                        <img className="default-img" src={product18}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-15-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product19} alt=""/>
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1253,9 +1271,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-16-1.jpg"
+                                                        <img className="default-img" src={product20}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-16-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product21} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1302,9 +1320,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-7-1.jpg"
+                                                        <img className="default-img" src={product_1_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-7-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_1_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1351,9 +1369,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-8-1.jpg"
+                                                        <img className="default-img" src={product_2_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-8-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_2_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1403,9 +1421,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                        <img className="default-img" src={product_3_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-9-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_3_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1455,9 +1473,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-10-1.jpg"
+                                                        <img className="default-img" src={product_4_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-10-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_3_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1510,9 +1528,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                        <img className="default-img" src={product9}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-9-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product10} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1562,9 +1580,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-8-1.jpg"
+                                                        <img className="default-img" src={product_8_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-8-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_8_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1614,9 +1632,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-7-1.jpg"
+                                                        <img className="default-img" src={product_7_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-7-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_7_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1666,9 +1684,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-6-1.jpg"
+                                                        <img className="default-img" src={product_6_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_6_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1715,9 +1733,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-5-1.jpg"
+                                                        <img className="default-img" src={product_5_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-5-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_5_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1767,9 +1785,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-4-1.jpg"
+                                                        <img className="default-img" src={product_4_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-4-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_4_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1816,9 +1834,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-3-1.jpg"
+                                                        <img className="default-img" src={product_3_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-3-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_3_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1865,9 +1883,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-2-1.jpg"
+                                                        <img className="default-img" src={product_2_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-2-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_2_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1917,9 +1935,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                        <img className="default-img" src={product9}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-9-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product10} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -1969,9 +1987,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product_1_1"
+                                                        <img className="default-img" src={product_1_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-1-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_1_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2024,9 +2042,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-6-1.jpg"
+                                                        <img className="default-img" src={product_6_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_6_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2076,9 +2094,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-7-1.jpg"
+                                                        <img className="default-img" src={product_7_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-7-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_7_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2128,9 +2146,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-8-1.jpg"
+                                                        <img className="default-img" src={product_8_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-8-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_8_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2180,9 +2198,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                        <img className="default-img" src={product9}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-9-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product10} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2229,9 +2247,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-4-1.jpg"
+                                                        <img className="default-img" src={product_4_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-4-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_4_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2281,9 +2299,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-3-1.jpg"
+                                                        <img className="default-img" src={product_3_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-3-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_3_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2330,9 +2348,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-2-1.jpg"
+                                                        <img className="default-img" src={product_2_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-2-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_2_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2379,9 +2397,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product_1_1"
+                                                        <img className="default-img" src={product_1_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-1-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_1_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2431,9 +2449,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-11-1.jpg"
+                                                        <img className="default-img" src={thumbnail12}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-11-2.jpg" alt="" />
+                                                        <img className="hover-img" src={thumbnail13} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2483,9 +2501,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-12-1.jpg"
+                                                        <img className="default-img" src={product13}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-12-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product14} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2538,9 +2556,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-12-1.jpg"
+                                                        <img className="default-img" src={product13}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-12-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product14} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2590,9 +2608,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-13-1.jpg"
+                                                        <img className="default-img" src={product15}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-13-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product16} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2642,9 +2660,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-14-1.jpg"
+                                                        <img className="default-img" src={product17}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-14-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product22} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2694,9 +2712,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-15-1.jpg"
+                                                        <img className="default-img" src={product18}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-15-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product19} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2743,9 +2761,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-16-1.jpg"
+                                                        <img className="default-img" src={product20}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-16-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product21} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2795,9 +2813,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-5-1.jpg"
+                                                        <img className="default-img" src={product_5_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-5-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_5_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2844,9 +2862,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-7-1.jpg"
+                                                        <img className="default-img" src={product_7_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-7-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_7_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2893,9 +2911,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-8-1.jpg"
+                                                        <img className="default-img" src={product_8_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-8-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_8_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2945,9 +2963,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                        <img className="default-img" src={product9}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-9-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product10} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -2997,9 +3015,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-10-1.jpg"
+                                                        <img className="default-img" src={product10}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-10-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product11} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3052,9 +3070,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-4-1.jpg"
+                                                        <img className="default-img" src={product_4_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-4-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_4_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3104,9 +3122,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-6-1.jpg"
+                                                        <img className="default-img" src={product_6_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_6_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3156,9 +3174,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-8-1.jpg"
+                                                        <img className="default-img" src={product_8_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-8-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_8_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3208,9 +3226,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                        <img className="default-img" src={product9}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-9-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product10} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3257,9 +3275,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-5-1.jpg"
+                                                        <img className="default-img" src={product_5_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-5-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_5_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3309,9 +3327,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-6-1.jpg"
+                                                        <img className="default-img" src={product_6_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-6-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_6_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3358,9 +3376,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-7-1.jpg"
+                                                        <img className="default-img" src={product_7_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-7-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_7_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3407,9 +3425,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-8-1.jpg"
+                                                        <img className="default-img" src={product_8_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-8-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_8_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3459,9 +3477,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                        <img className="default-img" src={product9}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-9-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product10} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3511,9 +3529,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-10-1.jpg"
+                                                        <img className="default-img" src={product10}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-10-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product11} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3566,9 +3584,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-5-1.jpg"
+                                                        <img className="default-img" src={product_5_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-5-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_5_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3618,9 +3636,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-3-1.jpg"
+                                                        <img className="default-img" src={product_3_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-3-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_3_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3670,9 +3688,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-7-1.jpg"
+                                                        <img className="default-img" src={product_7_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-7-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_7_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3722,9 +3740,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                        <img className="default-img" src={product9}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-9-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product10} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3771,9 +3789,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-10-1.jpg"
+                                                        <img className="default-img" src={product10}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-10-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product11} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3823,9 +3841,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-16-1.jpg"
+                                                        <img className="default-img" src={product20}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-16-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product21} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3872,9 +3890,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-7-1.jpg"
+                                                        <img className="default-img" src={product_7_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-7-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_7_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3921,9 +3939,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-8-1.jpg"
+                                                        <img className="default-img" src={product_8_1}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-8-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product_8_2} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -3973,9 +3991,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                        <img className="default-img" src={product9}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-9-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product10} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -4025,9 +4043,9 @@ function Home() {
                                             <div className="product-img-action-wrap">
                                                 <div className="product-img product-img-zoom">
                                                     <a href="shop-product-right.html">
-                                                        <img className="default-img" src="assets/imgs/shop/product-10-1.jpg"
+                                                        <img className="default-img" src={product10}
                                                             alt="" />
-                                                        <img className="hover-img" src="assets/imgs/shop/product-10-2.jpg" alt="" />
+                                                        <img className="hover-img" src={product11} alt="" />
                                                     </a>
                                                 </div>
                                                 <div className="product-action-1">
@@ -4121,9 +4139,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product_1_1"
+                                                                <img className="default-img" src={product_1_1}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-1-2.jpg"
+                                                                <img className="hover-img" src={product_1_2}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4169,9 +4187,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-5-1.jpg"
+                                                                <img className="default-img" src={product_5_1}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-5-2.jpg"
+                                                                <img className="hover-img" src={product_5_2}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4217,9 +4235,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-2-1.jpg"
+                                                                <img className="default-img" src={product_2_1}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-2-2.jpg"
+                                                                <img className="hover-img" src={product_2_2}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4265,9 +4283,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-3-1.jpg"
+                                                                <img className="default-img" src={product_3_1}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-3-2.jpg"
+                                                                <img className="hover-img" src={product_3_2}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4313,9 +4331,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-4-1.jpg"
+                                                                <img className="default-img" src={product_4_1}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-4-2.jpg"
+                                                                <img className="hover-img" src={product_4_2}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4370,9 +4388,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-10-1.jpg"
+                                                                <img className="default-img" src={product10}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-10-2.jpg"
+                                                                <img className="hover-img" src={product11}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4418,9 +4436,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-15-1.jpg"
+                                                                <img className="default-img" src={product18}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-15-2.jpg"
+                                                                <img className="hover-img" src={product19}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4466,9 +4484,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-12-1.jpg"
+                                                                <img className="default-img" src={product13}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-12-2.jpg"
+                                                                <img className="hover-img" src={product14}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4514,9 +4532,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-13-1.jpg"
+                                                                <img className="default-img" src={product15}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-13-2.jpg"
+                                                                <img className="hover-img" src={product16}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4562,9 +4580,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-14-1.jpg"
+                                                                <img className="default-img" src={product17}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-14-2.jpg"
+                                                                <img className="hover-img" src={product22}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4618,9 +4636,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-7-1.jpg"
+                                                                <img className="default-img" src={product_7_1}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-7-2.jpg"
+                                                                <img className="hover-img" src={product_7_2}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4666,9 +4684,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-8-1.jpg"
+                                                                <img className="default-img" src={product_8_1}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-8-2.jpg"
+                                                                <img className="hover-img" src={product_8_2}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4714,9 +4732,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-9-1.jpg"
+                                                                <img className="default-img" src={product9}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-9-2.jpg"
+                                                                <img className="hover-img" src={product10}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4762,9 +4780,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-13-1.jpg"
+                                                                <img className="default-img" src={product15}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-13-2.jpg"
+                                                                <img className="hover-img" src={product16}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -4810,9 +4828,9 @@ function Home() {
                                                     <div className="product-img-action-wrap">
                                                         <div className="product-img product-img-zoom">
                                                             <a href="shop-product-right.html">
-                                                                <img className="default-img" src="assets/imgs/shop/product-14-1.jpg"
+                                                                <img className="default-img" src={product17}
                                                                     alt="" />
-                                                                <img className="hover-img" src="assets/imgs/shop/product-14-2.jpg"
+                                                                <img className="hover-img" src={product22}
                                                                     alt="" />
                                                             </a>
                                                         </div>
@@ -5051,7 +5069,7 @@ function Home() {
                                 <div className="product-list-small animated animated">
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-1.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5072,7 +5090,7 @@ function Home() {
                                     </article>
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-2.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail1}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5093,7 +5111,7 @@ function Home() {
                                     </article>
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-3.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail2}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5120,7 +5138,7 @@ function Home() {
                                 <div className="product-list-small animated animated">
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-4.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail3}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5141,7 +5159,7 @@ function Home() {
                                     </article>
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-5.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail4}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5163,7 +5181,7 @@ function Home() {
                                     </article>
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-6.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail5}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5191,7 +5209,7 @@ function Home() {
                                 <div className="product-list-small animated animated">
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-7.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail6}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5213,7 +5231,7 @@ function Home() {
                                     </article>
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-8.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail7}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5234,7 +5252,7 @@ function Home() {
                                     </article>
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-9.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail8}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5261,7 +5279,7 @@ function Home() {
                                 <div className="product-list-small animated animated">
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-10.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail9}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5283,7 +5301,7 @@ function Home() {
                                     </article>
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-11.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail10}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
@@ -5305,7 +5323,7 @@ function Home() {
                                     </article>
                                     <article className="row align-items-center hover-up">
                                         <figure className="col-md-4 mb-0">
-                                            <a href="shop-product-right.html"><img src="assets/imgs/shop/thumbnail-12.jpg"
+                                            <a href="shop-product-right.html"><img src={thumbnail11}
                                                 alt="" /></a>
                                         </figure>
                                         <div className="col-md-8 mb-0">
