@@ -15,33 +15,33 @@ function Wishlist() {
     return (
         <>
 
-            <div class="mobile-header-active mobile-header-wrapper-style">
-                <div class="mobile-header-wrapper-inner">
-                    <div class="mobile-header-top">
-                        <div class="mobile-header-logo">
+            <div className="mobile-header-active mobile-header-wrapper-style">
+                <div className="mobile-header-wrapper-inner">
+                    <div className="mobile-header-top">
+                        <div className="mobile-header-logo">
                             <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
                         </div>
-                        <div class="mobile-menu-close close-style-wrap close-style-position-inherit">
-                            <button class="close-style search-close">
-                                <i class="icon-top"></i>
-                                <i class="icon-bottom"></i>
+                        <div className="mobile-menu-close close-style-wrap close-style-position-inherit">
+                            <button className="close-style search-close">
+                                <i className="icon-top"></i>
+                                <i className="icon-bottom"></i>
                             </button>
                         </div>
                     </div>
-                    <div class="mobile-header-content-area">
-                        <div class="mobile-search search-style-3 mobile-header-border">
+                    <div className="mobile-header-content-area">
+                        <div className="mobile-search search-style-3 mobile-header-border">
                             <form action="shop-wishlist.html#">
                                 <input type="text" placeholder="Search for items…" />
-                                <button type="submit"><i class="fi-rs-search"></i></button>
+                                <button type="submit"><i className="fi-rs-search"></i></button>
                             </form>
                         </div>
-                        <div class="mobile-menu-wrap mobile-header-border">
+                        <div className="mobile-menu-wrap mobile-header-border">
 
                             <nav>
-                                <ul class="mobile-menu font-heading">
-                                    <li class="menu-item-has-children">
+                                <ul className="mobile-menu font-heading">
+                                    <li className="menu-item-has-children">
                                         <a href="index.html">Home</a>
-                                        <ul class="dropdown">
+                                        <ul className="dropdown">
                                             <li><a href="index.html">Home 1</a></li>
                                             <li><a href="index-2.html">Home 2</a></li>
                                             <li><a href="index-3.html">Home 3</a></li>
@@ -50,17 +50,17 @@ function Wishlist() {
                                             <li><a href="index-6.html">Home 6</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
+                                    <li className="menu-item-has-children">
                                         <a href="shop-grid-right.html">shop</a>
-                                        <ul class="dropdown">
+                                        <ul className="dropdown">
                                             <li><a href="shop-grid-right.html">Shop Grid – Right Sidebar</a></li>
                                             <li><a href="shop-grid-left.html">Shop Grid – Left Sidebar</a></li>
                                             <li><a href="shop-list-right.html">Shop List – Right Sidebar</a></li>
                                             <li><a href="shop-list-left.html">Shop List – Left Sidebar</a></li>
                                             <li><a href="shop-fullwidth.html">Shop - Wide</a></li>
-                                            <li class="menu-item-has-children">
+                                            <li className="menu-item-has-children">
                                                 <a href="shop-wishlist.html#">Single Product</a>
-                                                <ul class="dropdown">
+                                                <ul className="dropdown">
                                                     <li><a href="shop-product-right.html">Product – Right Sidebar</a></li>
                                                     <li><a href="shop-product-left.html">Product – Left Sidebar</a></li>
                                                     <li><a href="shop-product-full.html">Product – No sidebar</a></li>
@@ -72,9 +72,9 @@ function Wishlist() {
                                             <li><a href="shop-cart.html">Shop – Cart</a></li>
                                             <li><a href="shop-checkout.html">Shop – Checkout</a></li>
                                             <li><a href="shop-compare.html">Shop – Compare</a></li>
-                                            <li class="menu-item-has-children">
+                                            <li className="menu-item-has-children">
                                                 <a href="shop-wishlist.html#">Shop Invoice</a>
-                                                <ul class="dropdown">
+                                                <ul className="dropdown">
                                                     <li><a href="shop-invoice-1.html">Shop Invoice 1</a></li>
                                                     <li><a href="shop-invoice-2.html">Shop Invoice 2</a></li>
                                                     <li><a href="shop-invoice-3.html">Shop Invoice 3</a></li>
@@ -85,9 +85,9 @@ function Wishlist() {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
+                                    <li className="menu-item-has-children">
                                         <a href="shop-wishlist.html#">Vendors</a>
-                                        <ul class="dropdown">
+                                        <ul className="dropdown">
                                             <li><a href="vendors-grid.html">Vendors Grid</a></li>
                                             <li><a href="vendors-list.html">Vendors List</a></li>
                                             <li><a href="vendor-details-1.html">Vendor Details 01</a></li>
@@ -96,29 +96,29 @@ function Wishlist() {
                                             <li><a href="vendor-guide.html">Vendor Guide</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
+                                    <li className="menu-item-has-children">
                                         <a href="shop-wishlist.html#">Mega menu</a>
-                                        <ul class="dropdown">
-                                            <li class="menu-item-has-children">
+                                        <ul className="dropdown">
+                                            <li className="menu-item-has-children">
                                                 <a href="shop-wishlist.html#">Women's Fashion</a>
-                                                <ul class="dropdown">
+                                                <ul className="dropdown">
                                                     <li><a href="shop-product-right.html">Dresses</a></li>
                                                     <li><a href="shop-product-right.html">Blouses & Shirts</a></li>
                                                     <li><a href="shop-product-right.html">Hoodies & Sweatshirts</a></li>
                                                     <li><a href="shop-product-right.html">Women's Sets</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children">
+                                            <li className="menu-item-has-children">
                                                 <a href="shop-wishlist.html#">Men's Fashion</a>
-                                                <ul class="dropdown">
+                                                <ul className="dropdown">
                                                     <li><a href="shop-product-right.html">Jackets</a></li>
                                                     <li><a href="shop-product-right.html">Casual Faux Leather</a></li>
                                                     <li><a href="shop-product-right.html">Genuine Leather</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children">
+                                            <li className="menu-item-has-children">
                                                 <a href="shop-wishlist.html#">Technology</a>
-                                                <ul class="dropdown">
+                                                <ul className="dropdown">
                                                     <li><a href="shop-product-right.html">Gaming Laptops</a></li>
                                                     <li><a href="shop-product-right.html">Ultraslim Laptops</a></li>
                                                     <li><a href="shop-product-right.html">Tablets</a></li>
@@ -128,16 +128,16 @@ function Wishlist() {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
+                                    <li className="menu-item-has-children">
                                         <a href="blog-category-fullwidth.html">Blog</a>
-                                        <ul class="dropdown">
+                                        <ul className="dropdown">
                                             <li><a href="blog-category-grid.html">Blog Category Grid</a></li>
                                             <li><a href="blog-category-list.html">Blog Category List</a></li>
                                             <li><a href="blog-category-big.html">Blog Category Big</a></li>
                                             <li><a href="blog-category-fullwidth.html">Blog Category Wide</a></li>
-                                            <li class="menu-item-has-children">
+                                            <li className="menu-item-has-children">
                                                 <a href="shop-wishlist.html#">Single Product Layout</a>
-                                                <ul class="dropdown">
+                                                <ul className="dropdown">
                                                     <li><a href="blog-post-left.html">Left Sidebar</a></li>
                                                     <li><a href="blog-post-right.html">Right Sidebar</a></li>
                                                     <li><a href="blog-post-fullwidth.html">No Sidebar</a></li>
@@ -145,9 +145,9 @@ function Wishlist() {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
+                                    <li className="menu-item-has-children">
                                         <a href="shop-wishlist.html#">Pages</a>
-                                        <ul class="dropdown">
+                                        <ul className="dropdown">
                                             <li><a href="page-about.html">About Us</a></li>
                                             <li><a href="page-contact.html">Contact</a></li>
                                             <li><a href="page-account.html">My Account</a></li>
@@ -161,9 +161,9 @@ function Wishlist() {
                                             <li><a href="page-404.html">404 Page</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
+                                    <li className="menu-item-has-children">
                                         <a href="shop-wishlist.html#">Language</a>
-                                        <ul class="dropdown">
+                                        <ul className="dropdown">
                                             <li><a href="shop-wishlist.html#">English</a></li>
                                             <li><a href="shop-wishlist.html#">French</a></li>
                                             <li><a href="shop-wishlist.html#">German</a></li>
@@ -174,200 +174,200 @@ function Wishlist() {
                             </nav>
 
                         </div>
-                        <div class="mobile-header-info-wrap">
-                            <div class="single-mobile-header-info">
-                                <a href="page-contact.html"><i class="fi-rs-marker"></i> Our location </a>
+                        <div className="mobile-header-info-wrap">
+                            <div className="single-mobile-header-info">
+                                <a href="page-contact.html"><i className="fi-rs-marker"></i> Our location </a>
                             </div>
-                            <div class="single-mobile-header-info">
-                                <a href="page-login.html"><i class="fi-rs-user"></i>Log In / Sign Up </a>
+                            <div className="single-mobile-header-info">
+                                <a href="page-login.html"><i className="fi-rs-user"></i>Log In / Sign Up </a>
                             </div>
-                            <div class="single-mobile-header-info">
-                                <a href="shop-wishlist.html#"><i class="fi-rs-headphones"></i>(+01) - 2345 - 6789 </a>
+                            <div className="single-mobile-header-info">
+                                <a href="shop-wishlist.html#"><i className="fi-rs-headphones"></i>(+01) - 2345 - 6789 </a>
                             </div>
                         </div>
-                        <div class="mobile-social-icon mb-50">
-                            <h6 class="mb-15">Follow Us</h6>
+                        <div className="mobile-social-icon mb-50">
+                            <h6 className="mb-15">Follow Us</h6>
                             <a href="shop-wishlist.html#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
                             <a href="shop-wishlist.html#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
                             <a href="shop-wishlist.html#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
                             <a href="shop-wishlist.html#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
                             <a href="shop-wishlist.html#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
                         </div>
-                        <div class="site-copyright">Copyright 2022 © Nest. All rights reserved. Powered by AliThemes.</div>
+                        <div className="site-copyright">Copyright 2022 © Nest. All rights reserved. Powered by AliThemes.</div>
                     </div>
                 </div>
             </div>
 
-            <main class="main">
-                <div class="page-header breadcrumb-wrap">
-                    <div class="container">
-                        <div class="breadcrumb">
-                            <a href="index.html" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
+            <main className="main">
+                <div className="page-header breadcrumb-wrap">
+                    <div className="container">
+                        <div className="breadcrumb">
+                            <a href="index.html" rel="nofollow"><i className="fi-rs-home mr-5"></i>Home</a>
                             <span></span> Shop <span></span> Fillter
                         </div>
                     </div>
                 </div>
-                <div class="container mb-30 mt-50">
-                    <div class="row">
-                        <div class="col-xl-10 col-lg-12 m-auto">
-                            <div class="mb-50">
-                                <h1 class="heading-2 mb-10">Your Wishlist</h1>
-                                <h6 class="text-body">There are <span class="text-brand">5</span> products in this list</h6>
+                <div className="container mb-30 mt-50">
+                    <div className="row">
+                        <div className="col-xl-10 col-lg-12 m-auto">
+                            <div className="mb-50">
+                                <h1 className="heading-2 mb-10">Your Wishlist</h1>
+                                <h6 className="text-body">There are <span className="text-brand">5</span> products in this list</h6>
                             </div>
-                            <div class="table-responsive shopping-summery">
-                                <table class="table table-wishlist">
+                            <div className="table-responsive shopping-summery">
+                                <table className="table table-wishlist">
                                     <thead>
-                                        <tr class="main-heading">
-                                            <th class="custome-checkbox start pl-30">
-                                                <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox11" value="" />
-                                                <label class="form-check-label" for="exampleCheckbox11"></label>
+                                        <tr className="main-heading">
+                                            <th className="custome-checkbox start pl-30">
+                                                <input className="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox11" value="" />
+                                                <label className="form-check-label" for="exampleCheckbox11"></label>
                                             </th>
                                             <th scope="col" colspan="2">Product</th>
                                             <th scope="col">Price</th>
                                             <th scope="col">Stock Status</th>
                                             <th scope="col">Action</th>
-                                            <th scope="col" class="end">Remove</th>
+                                            <th scope="col" className="end">Remove</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr class="pt-30">
-                                            <td class="custome-checkbox pl-30">
-                                                <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox1" value="" />
-                                                <label class="form-check-label" for="exampleCheckbox1"></label>
+                                        <tr className="pt-30">
+                                            <td className="custome-checkbox pl-30">
+                                                <input className="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox1" value="" />
+                                                <label className="form-check-label" for="exampleCheckbox1"></label>
                                             </td>
-                                            <td class="image product-thumbnail pt-40"><img src={product_1_1} alt="#" /></td>
-                                            <td class="product-des product-name">
-                                                <h6><a class="product-name mb-10" href="shop-product-right.html">Field Roast Chao Cheese Creamy Original</a></h6>
-                                                <div class="product-rate-cover">
-                                                    <div class="product-rate d-inline-block">
-                                                        <div class="product-rating" style={{ width: `90%` }}></div>
+                                            <td className="image product-thumbnail pt-40"><img src={product_1_1} alt="#" /></td>
+                                            <td className="product-des product-name">
+                                                <h6><a className="product-name mb-10" href="shop-product-right.html">Field Roast Chao Cheese Creamy Original</a></h6>
+                                                <div className="product-rate-cover">
+                                                    <div className="product-rate d-inline-block">
+                                                        <div className="product-rating" style={{ width: `90%` }}></div>
                                                     </div>
-                                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                                    <span className="font-small ml-5 text-muted"> (4.0)</span>
                                                 </div>
                                             </td>
-                                            <td class="price" data-title="Price">
-                                                <h3 class="text-brand">$2.51</h3>
+                                            <td className="price" data-title="Price">
+                                                <h3 className="text-brand">$2.51</h3>
                                             </td>
-                                            <td class="text-center detail-info" data-title="Stock">
-                                                <span class="stock-status in-stock mb-0"> In Stock </span>
+                                            <td className="text-center detail-info" data-title="Stock">
+                                                <span className="stock-status in-stock mb-0"> In Stock </span>
                                             </td>
-                                            <td class="text-right" data-title="Cart">
-                                                <button class="btn btn-sm">Add to cart</button>
+                                            <td className="text-right" data-title="Cart">
+                                                <button className="btn btn-sm">Add to cart</button>
                                             </td>
-                                            <td class="action text-center" data-title="Remove">
-                                                <a href="shop-wishlist.html#" class="text-body"><i class="fi-rs-trash"></i></a>
+                                            <td className="action text-center" data-title="Remove">
+                                                <a href="shop-wishlist.html#" className="text-body"><i className="fi-rs-trash"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="custome-checkbox pl-30">
-                                                <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox2" value="" />
-                                                <label class="form-check-label" for="exampleCheckbox2"></label>
+                                            <td className="custome-checkbox pl-30">
+                                                <input className="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox2" value="" />
+                                                <label className="form-check-label" for="exampleCheckbox2"></label>
                                             </td>
-                                            <td class="image product-thumbnail"><img src={product_2_1} alt="#" /></td>
-                                            <td class="product-des product-name">
-                                                <h6><a class="product-name mb-10" href="shop-product-right.html">Blue Diamond Almonds Lightly Salted</a></h6>
-                                                <div class="product-rate-cover">
-                                                    <div class="product-rate d-inline-block">
-                                                        <div class="product-rating" style={{ width: `90%` }}></div>
+                                            <td className="image product-thumbnail"><img src={product_2_1} alt="#" /></td>
+                                            <td className="product-des product-name">
+                                                <h6><a className="product-name mb-10" href="shop-product-right.html">Blue Diamond Almonds Lightly Salted</a></h6>
+                                                <div className="product-rate-cover">
+                                                    <div className="product-rate d-inline-block">
+                                                        <div className="product-rating" style={{ width: `90%` }}></div>
                                                     </div>
-                                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                                    <span className="font-small ml-5 text-muted"> (4.0)</span>
                                                 </div>
                                             </td>
-                                            <td class="price" data-title="Price">
-                                                <h3 class="text-brand">$3.2</h3>
+                                            <td className="price" data-title="Price">
+                                                <h3 className="text-brand">$3.2</h3>
                                             </td>
-                                            <td class="text-center detail-info" data-title="Stock">
-                                                <span class="stock-status in-stock mb-0"> In Stock </span>
+                                            <td className="text-center detail-info" data-title="Stock">
+                                                <span className="stock-status in-stock mb-0"> In Stock </span>
                                             </td>
-                                            <td class="text-right" data-title="Cart">
-                                                <button class="btn btn-sm">Add to cart</button>
+                                            <td className="text-right" data-title="Cart">
+                                                <button className="btn btn-sm">Add to cart</button>
                                             </td>
-                                            <td class="action text-center" data-title="Remove">
-                                                <a href="shop-wishlist.html#" class="text-body"><i class="fi-rs-trash"></i></a>
+                                            <td className="action text-center" data-title="Remove">
+                                                <a href="shop-wishlist.html#" className="text-body"><i className="fi-rs-trash"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="custome-checkbox pl-30">
-                                                <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox3" value="" />
-                                                <label class="form-check-label" for="exampleCheckbox3"></label>
+                                            <td className="custome-checkbox pl-30">
+                                                <input className="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox3" value="" />
+                                                <label className="form-check-label" for="exampleCheckbox3"></label>
                                             </td>
-                                            <td class="image product-thumbnail"><img src={product_3_1} alt="#" /></td>
-                                            <td class="product-des product-name">
-                                                <h6><a class="product-name mb-10" href="shop-product-right.html">Fresh Organic Mustard Leaves Bell Pepper</a></h6>
-                                                <div class="product-rate-cover">
-                                                    <div class="product-rate d-inline-block">
-                                                        <div class="product-rating" style={{ width: `90%` }}></div>
+                                            <td className="image product-thumbnail"><img src={product_3_1} alt="#" /></td>
+                                            <td className="product-des product-name">
+                                                <h6><a className="product-name mb-10" href="shop-product-right.html">Fresh Organic Mustard Leaves Bell Pepper</a></h6>
+                                                <div className="product-rate-cover">
+                                                    <div className="product-rate d-inline-block">
+                                                        <div className="product-rating" style={{ width: `90%` }}></div>
                                                     </div>
-                                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                                    <span className="font-small ml-5 text-muted"> (4.0)</span>
                                                 </div>
                                             </td>
-                                            <td class="price" data-title="Price">
-                                                <h3 class="text-brand">$2.43</h3>
+                                            <td className="price" data-title="Price">
+                                                <h3 className="text-brand">$2.43</h3>
                                             </td>
-                                            <td class="text-center detail-info" data-title="Stock">
-                                                <span class="stock-status in-stock mb-0"> In Stock </span>
+                                            <td className="text-center detail-info" data-title="Stock">
+                                                <span className="stock-status in-stock mb-0"> In Stock </span>
                                             </td>
-                                            <td class="text-right" data-title="Cart">
-                                                <button class="btn btn-sm">Add to cart</button>
+                                            <td className="text-right" data-title="Cart">
+                                                <button className="btn btn-sm">Add to cart</button>
                                             </td>
-                                            <td class="action text-center" data-title="Remove">
-                                                <a href="shop-wishlist.html#" class="text-body"><i class="fi-rs-trash"></i></a>
+                                            <td className="action text-center" data-title="Remove">
+                                                <a href="shop-wishlist.html#" className="text-body"><i className="fi-rs-trash"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="custome-checkbox pl-30">
-                                                <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox4" value="" />
-                                                <label class="form-check-label" for="exampleCheckbox4"></label>
+                                            <td className="custome-checkbox pl-30">
+                                                <input className="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox4" value="" />
+                                                <label className="form-check-label" for="exampleCheckbox4"></label>
                                             </td>
-                                            <td class="image product-thumbnail"><img src={product_4_1} alt="#" /></td>
-                                            <td class="product-des product-name">
-                                                <h6><a class="product-name mb-10" href="shop-product-right.html">Angie’s Boomchickapop Sweet & Salty </a></h6>
-                                                <div class="product-rate-cover">
-                                                    <div class="product-rate d-inline-block">
-                                                        <div class="product-rating" style={{ width: `90%` }}></div>
+                                            <td className="image product-thumbnail"><img src={product_4_1} alt="#" /></td>
+                                            <td className="product-des product-name">
+                                                <h6><a className="product-name mb-10" href="shop-product-right.html">Angie’s Boomchickapop Sweet & Salty </a></h6>
+                                                <div className="product-rate-cover">
+                                                    <div className="product-rate d-inline-block">
+                                                        <div className="product-rating" style={{ width: `90%` }}></div>
                                                     </div>
-                                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                                    <span className="font-small ml-5 text-muted"> (4.0)</span>
                                                 </div>
                                             </td>
-                                            <td class="price" data-title="Price">
-                                                <h3 class="text-brand">$3.21</h3>
+                                            <td className="price" data-title="Price">
+                                                <h3 className="text-brand">$3.21</h3>
                                             </td>
-                                            <td class="text-center detail-info" data-title="Stock">
-                                                <span class="stock-status out-stock mb-0"> Out Stock </span>
+                                            <td className="text-center detail-info" data-title="Stock">
+                                                <span className="stock-status out-stock mb-0"> Out Stock </span>
                                             </td>
-                                            <td class="text-right" data-title="Cart">
-                                                <button class="btn btn-sm btn-secondary">Contact Us</button>
+                                            <td className="text-right" data-title="Cart">
+                                                <button className="btn btn-sm btn-secondary">Contact Us</button>
                                             </td>
-                                            <td class="action text-center" data-title="Remove">
-                                                <a href="shop-wishlist.html#" class="text-body"><i class="fi-rs-trash"></i></a>
+                                            <td className="action text-center" data-title="Remove">
+                                                <a href="shop-wishlist.html#" className="text-body"><i className="fi-rs-trash"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="custome-checkbox pl-30">
-                                                <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox5" value="" />
-                                                <label class="form-check-label" for="exampleCheckbox5"></label>
+                                            <td className="custome-checkbox pl-30">
+                                                <input className="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox5" value="" />
+                                                <label className="form-check-label" for="exampleCheckbox5"></label>
                                             </td>
-                                            <td class="image product-thumbnail"><img src={product_5_1} alt="#" /></td>
-                                            <td class="product-des product-name">
-                                                <h6><a class="product-name mb-10" href="shop-product-right.html">Foster Farms Takeout Crispy Classic</a></h6>
-                                                <div class="product-rate-cover">
-                                                    <div class="product-rate d-inline-block">
-                                                        <div class="product-rating" style={{ width: `90%` }}></div>
+                                            <td className="image product-thumbnail"><img src={product_5_1} alt="#" /></td>
+                                            <td className="product-des product-name">
+                                                <h6><a className="product-name mb-10" href="shop-product-right.html">Foster Farms Takeout Crispy Classic</a></h6>
+                                                <div className="product-rate-cover">
+                                                    <div className="product-rate d-inline-block">
+                                                        <div className="product-rating" style={{ width: `90%` }}></div>
                                                     </div>
-                                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                                    <span className="font-small ml-5 text-muted"> (4.0)</span>
                                                 </div>
                                             </td>
-                                            <td class="price" data-title="Price">
-                                                <h3 class="text-brand">$3.17</h3>
+                                            <td className="price" data-title="Price">
+                                                <h3 className="text-brand">$3.17</h3>
                                             </td>
-                                            <td class="text-center detail-info" data-title="Stock">
-                                                <span class="stock-status in-stock mb-0"> In Stock </span>
+                                            <td className="text-center detail-info" data-title="Stock">
+                                                <span className="stock-status in-stock mb-0"> In Stock </span>
                                             </td>
-                                            <td class="text-right" data-title="Cart">
-                                                <button class="btn btn-sm">Add to cart</button>
+                                            <td className="text-right" data-title="Cart">
+                                                <button className="btn btn-sm">Add to cart</button>
                                             </td>
-                                            <td class="action text-center" data-title="Remove">
-                                                <a href="shop-wishlist.html#" class="text-body"><i class="fi-rs-trash"></i></a>
+                                            <td className="action text-center" data-title="Remove">
+                                                <a href="shop-wishlist.html#" className="text-body"><i className="fi-rs-trash"></i></a>
                                             </td>
                                         </tr>
                                     </tbody>

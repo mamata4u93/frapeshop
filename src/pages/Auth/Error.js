@@ -4,15 +4,25 @@ import Icon from 'react-web-vector-icons';
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 
-import loginimg from "../../assets/imgs/page/login-1.png";
+import Errors from "../../assets/imgs/page/page-404.png";
+import category1 from "../../assets/imgs/theme/icons/category-1.svg";
+import category2 from "../../assets/imgs/theme/icons/category-2.svg";
+import category3 from "../../assets/imgs/theme/icons/category-3.svg";
+import category4 from "../../assets/imgs/theme/icons/category-4.svg";
+import category5 from "../../assets/imgs/theme/icons/category-5.svg";
+import thumbnail2 from "../../assets/imgs/shop/thumbnail-3.jpg";
+import thumbnail3 from "../../assets/imgs/shop/thumbnail-4.jpg";
+import thumbnail4 from "../../assets/imgs/shop/thumbnail-5.jpg";
+import thumbnail6 from "../../assets/imgs/shop/thumbnail-6.jpg";
+import banner11 from "../../assets/imgs/banner/banner-11.png";
 
 
-function Register() {
+function Error() {
     let navigate = useNavigate();
     const { t } = useTranslation();
     return (
         <>
-          <div className="mobile-header-active mobile-header-wrapper-style">
+           <div className="mobile-header-active mobile-header-wrapper-style">
         <div className="mobile-header-wrapper-inner">
             <div className="mobile-header-top">
                 <div className="mobile-header-logo">
@@ -27,13 +37,13 @@ function Register() {
             </div>
             <div className="mobile-header-content-area">
                 <div className="mobile-search search-style-3 mobile-header-border">
-                    <form action="page-register.html#">
+                    <form action="page-404.html#">
                         <input type="text" placeholder="Search for items…" />
                         <button type="submit"><i className="fi-rs-search"></i></button>
                     </form>
                 </div>
                 <div className="mobile-menu-wrap mobile-header-border">
-                    
+                   
                     <nav>
                         <ul className="mobile-menu font-heading">
                             <li className="menu-item-has-children">
@@ -56,7 +66,7 @@ function Register() {
                                     <li><a href="shop-list-left.html">Shop List – Left Sidebar</a></li>
                                     <li><a href="shop-fullwidth.html">Shop - Wide</a></li>
                                     <li className="menu-item-has-children">
-                                        <a href="page-register.html#">Single Product</a>
+                                        <a href="page-404.html#">Single Product</a>
                                         <ul className="dropdown">
                                             <li><a href="shop-product-right.html">Product – Right Sidebar</a></li>
                                             <li><a href="shop-product-left.html">Product – Left Sidebar</a></li>
@@ -70,7 +80,7 @@ function Register() {
                                     <li><a href="shop-checkout.html">Shop – Checkout</a></li>
                                     <li><a href="shop-compare.html">Shop – Compare</a></li>
                                     <li className="menu-item-has-children">
-                                        <a href="page-register.html#">Shop Invoice</a>
+                                        <a href="page-404.html#">Shop Invoice</a>
                                         <ul className="dropdown">
                                             <li><a href="shop-invoice-1.html">Shop Invoice 1</a></li>
                                             <li><a href="shop-invoice-2.html">Shop Invoice 2</a></li>
@@ -83,7 +93,7 @@ function Register() {
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
-                                <a href="page-register.html#">Vendors</a>
+                                <a href="page-404.html#">Vendors</a>
                                 <ul className="dropdown">
                                     <li><a href="vendors-grid.html">Vendors Grid</a></li>
                                     <li><a href="vendors-list.html">Vendors List</a></li>
@@ -94,10 +104,10 @@ function Register() {
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
-                                <a href="page-register.html#">Mega menu</a>
+                                <a href="page-404.html#">Mega menu</a>
                                 <ul className="dropdown">
                                     <li className="menu-item-has-children">
-                                        <a href="page-register.html#">Women's Fashion</a>
+                                        <a href="page-404.html#">Women's Fashion</a>
                                         <ul className="dropdown">
                                             <li><a href="shop-product-right.html">Dresses</a></li>
                                             <li><a href="shop-product-right.html">Blouses & Shirts</a></li>
@@ -106,7 +116,7 @@ function Register() {
                                         </ul>
                                     </li>
                                     <li className="menu-item-has-children">
-                                        <a href="page-register.html#">Men's Fashion</a>
+                                        <a href="page-404.html#">Men's Fashion</a>
                                         <ul className="dropdown">
                                             <li><a href="shop-product-right.html">Jackets</a></li>
                                             <li><a href="shop-product-right.html">Casual Faux Leather</a></li>
@@ -114,7 +124,7 @@ function Register() {
                                         </ul>
                                     </li>
                                     <li className="menu-item-has-children">
-                                        <a href="page-register.html#">Technology</a>
+                                        <a href="page-404.html#">Technology</a>
                                         <ul className="dropdown">
                                             <li><a href="shop-product-right.html">Gaming Laptops</a></li>
                                             <li><a href="shop-product-right.html">Ultraslim Laptops</a></li>
@@ -133,7 +143,7 @@ function Register() {
                                     <li><a href="blog-category-big.html">Blog Category Big</a></li>
                                     <li><a href="blog-category-fullwidth.html">Blog Category Wide</a></li>
                                     <li className="menu-item-has-children">
-                                        <a href="page-register.html#">Single Product Layout</a>
+                                        <a href="page-404.html#">Single Product Layout</a>
                                         <ul className="dropdown">
                                             <li><a href="blog-post-left.html">Left Sidebar</a></li>
                                             <li><a href="blog-post-right.html">Right Sidebar</a></li>
@@ -143,7 +153,7 @@ function Register() {
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
-                                <a href="page-register.html#">Pages</a>
+                                <a href="page-404.html#">Pages</a>
                                 <ul className="dropdown">
                                     <li><a href="page-about.html">About Us</a></li>
                                     <li><a href="page-contact.html">Contact</a></li>
@@ -159,17 +169,17 @@ function Register() {
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
-                                <a href="page-register.html#">Language</a>
+                                <a href="page-404.html#">Language</a>
                                 <ul className="dropdown">
-                                    <li><a href="page-register.html#">English</a></li>
-                                    <li><a href="page-register.html#">French</a></li>
-                                    <li><a href="page-register.html#">German</a></li>
-                                    <li><a href="page-register.html#">Spanish</a></li>
+                                    <li><a href="page-404.html#">English</a></li>
+                                    <li><a href="page-404.html#">French</a></li>
+                                    <li><a href="page-404.html#">German</a></li>
+                                    <li><a href="page-404.html#">Spanish</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </nav>
-                  
+                   
                 </div>
                 <div className="mobile-header-info-wrap">
                     <div className="single-mobile-header-info">
@@ -179,118 +189,48 @@ function Register() {
                         <a href="page-login.html"><i className="fi-rs-user"></i>Log In / Sign Up </a>
                     </div>
                     <div className="single-mobile-header-info">
-                        <a href="page-register.html#"><i className="fi-rs-headphones"></i>(+01) - 2345 - 6789 </a>
+                        <a href="page-404.html#"><i className="fi-rs-headphones"></i>(+01) - 2345 - 6789 </a>
                     </div>
                 </div>
                 <div className="mobile-social-icon mb-50">
                     <h6 className="mb-15">Follow Us</h6>
-                    <a href="page-register.html#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
-                    <a href="page-register.html#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
-                    <a href="page-register.html#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
-                    <a href="page-register.html#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
-                    <a href="page-register.html#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
+                    <a href="page-404.html#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
+                    <a href="page-404.html#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
+                    <a href="page-404.html#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
+                    <a href="page-404.html#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
+                    <a href="page-404.html#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
                 </div>
                 <div className="site-copyright">Copyright 2022 © Nest. All rights reserved. Powered by AliThemes.</div>
             </div>
         </div>
     </div>
- 
-    <main className="main pages">
-        <div className="page-header breadcrumb-wrap">
-            <div className="container">
-                <div className="breadcrumb">
-                    <a href="index.html" rel="nofollow"><i className="fi-rs-home mr-5"></i>Home</a>
-                    <span></span> Pages <span></span> My Account
-                </div>
-            </div>
-        </div>
+    
+    <main className="main page-404">
         <div className="page-content pt-150 pb-150">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-8 col-lg-10 col-md-12 m-auto">
-                        <div className="row">
-                            <div className="col-lg-6 col-md-8">
-                                <div className="login_wrap widget-taber-content background-white">
-                                    <div className="padding_eight_all bg-white">
-                                        <div className="heading_s1">
-                                            <h1 className="mb-5">Create an Account</h1>
-                                            <p className="mb-30">Already have an account? <a href="page-login.html">Login</a></p>
-                                        </div>
-                                        <form method="post">
-                                            <div className="form-group">
-                                                <input type="text" required="" name="username" placeholder="Username" />
-                                            </div>
-                                            <div className="form-group">
-                                                <input type="text" required="" name="email" placeholder="Email" />
-                                            </div>
-                                            <div className="form-group">
-                                                <input required="" type="password" name="password" placeholder="Password" />
-                                            </div>
-                                            <div className="form-group">
-                                                <input required="" type="password" name="password" placeholder="Confirm password" />
-                                            </div>
-                                            <div className="login_footer form-group">
-                                                <div className="chek-form">
-                                                    <input type="text" required="" name="email" placeholder="Security code *" />
-                                                </div>
-                                                <span className="security-code">
-                                                    <b className="text-new">8</b>
-                                                    <b className="text-hot">6</b>
-                                                    <b className="text-sale">7</b>
-                                                    <b className="text-best">5</b>
-                                                </span>
-                                            </div>
-                                            <div className="payment_option mb-50">
-                                                <div className="custome-radio">
-                                                    <input className="form-check-input" required="" type="radio" name="payment_option" id="exampleRadios3" checked="" />
-                                                    <label className="form-check-label" for="exampleRadios3" data-bs-toggle="collapse" data-target="#bankTranfer" aria-controls="bankTranfer">I am a customer</label>
-                                                </div>
-                                                <div className="custome-radio">
-                                                    <input className="form-check-input" required="" type="radio" name="payment_option" id="exampleRadios4" checked="" />
-                                                    <label className="form-check-label" for="exampleRadios4" data-bs-toggle="collapse" data-target="#checkPayment" aria-controls="checkPayment">I am a vendor</label>
-                                                </div>
-                                            </div>
-                                            <div className="login_footer form-group mb-50">
-                                                <div className="chek-form">
-                                                    <div className="custome-checkbox">
-                                                        <input className="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox12" value="" />
-                                                        <label className="form-check-label" for="exampleCheckbox12"><span>I agree to terms &amp; Policy.</span></label>
-                                                    </div>
-                                                </div>
-                                                <a href="page-privacy-policy.html"><i className="fi-rs-book-alt mr-5 text-muted"></i>Lean more</a>
-                                            </div>
-                                            <div className="form-group mb-30">
-                                                <button type="submit" className="btn btn-fill-out btn-block hover-up font-weight-bold" name="login">Submit &amp; Register</button>
-                                            </div>
-                                            <p className="font-xs text-muted"><strong>Note:</strong>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy</p>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 pr-30 d-none d-lg-block">
-                                <div className="card-login mt-115">
-                                    <a href="page-register.html#" className="social-login facebook-login">
-                                        <img src="assets/imgs/theme/icons/logo-facebook.svg" alt="" />
-                                        <span>Continue with Facebook</span>
-                                    </a>
-                                    <a href="page-register.html#" className="social-login google-login">
-                                        <img src="assets/imgs/theme/icons/logo-google.svg" alt="" />
-                                        <span>Continue with Google</span>
-                                    </a>
-                                    <a href="page-register.html#" className="social-login apple-login">
-                                        <img src="assets/imgs/theme/icons/logo-apple.svg" alt="" />
-                                        <span>Continue with Apple</span>
-                                    </a>
-                                </div>
-                            </div>
+                    <div className="col-xl-8 col-lg-10 col-md-12 m-auto text-center">
+                        <p className="mb-20"><img src={Errors} alt="" className="hover-up" /></p>
+                        <h1 className="display-2 mb-30">Page Not Found</h1>
+                        <p className="font-lg text-grey-700 mb-30">
+                            The link you clicked may be broken or the page may have been removed.<br />
+                            visit the <a href="index.html"> <span> Homepage</span></a> or <a href="page-contact.html"><span>Contact us</span></a> about the problem
+                        </p>
+                        <div className="search-form">
+                            <form action="page-404.html#">
+                                <input type="text" placeholder="Search…" />
+                                <button type="submit"><i className="fi-rs-search"></i></button>
+                            </form>
                         </div>
+                        <a className="btn btn-default submit-auto-width font-xs hover-up mt-30" href="index.html"><i className="fi-rs-home mr-5"></i> Back To Home Page</a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
         </>
     );
 }
 
-export default Register;
+export default Error;

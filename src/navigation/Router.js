@@ -23,6 +23,10 @@ import Logins from "../pages/Auth/Logins";
 import Register from "../pages/Auth/Register";
 import Forgotpassword from "../pages/Auth/Forgotpassword";
 import Resetpassword from "../pages/Auth/Resetpassword";
+import Purchaseguide from "../pages/Auth/Purchaseguide";
+import Privacypolicy from "../pages/Auth/Privacypolicy";
+import Termsservice from "../pages/Auth/Termsservice";
+import Error from "../pages/Auth/Error";
 
 const RequireAuth = () => {
   const token = useSelector((state) => state.auth.token)
@@ -57,8 +61,12 @@ function Routers() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/logins" element={<Logins />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/forgotpassword" element={<Forgotpassword />} />
-          <Route path="/resetpassword" element={<Resetpassword />} />
+          <Route path="/forgotpassword" element={<Forgotpassword/>} />
+          <Route path="/resetpassword" element={<Resetpassword/>} />
+          <Route path="/purchaseguide" element={<Purchaseguide/>} />
+          <Route path="/privacypolicy" element={<Privacypolicy/>} />
+          <Route path="/termsservice" element={<Termsservice/>} />
+          <Route path="/error" element={<Error/>} />
 
           <Route element={<RequireAuth />}>
             {/* With token */}
